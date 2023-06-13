@@ -1,0 +1,451 @@
+{
+	"info": {
+		"_postman_id": "fd5ea7de-b47e-4842-9dab-9469618587c8",
+		"name": "Digi yeklavya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/jobOpportunity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/jobOpportunity",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"jobOpportunity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/daliytask",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/daliytask",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"daliytask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/daliytask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"studentName\":\"paratiksha\", \"taskName\":\"create one website\",\"startTime\":\"2/2/23\",\"endTime\":\"2/12/23\",\"status\":\"ongoing\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/daliytask",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"daliytask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/jobOpportunity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"JobName\":\"software Developer\",\"CompanyName\":\"tata steel \",\"Location\":\"Pune\",\"Date\":\"10/7/2023\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/jobOpportunity",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"jobOpportunity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/tieupcompany",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"OwnerName\":\"Anjali Mali\",\"tieupCompanyName\":\"Code Chakra tech\",\"Location\":\"sangli\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/tieupcompany",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"tieupcompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/tieupcompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/tieupcompany",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"tieupcompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/questionBank",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/questionBank",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"questionBank"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"categoriesname\":\"Javascript\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/categories",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/questionBank",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"question\":\"what is callback function?\",\"answer\":\"A callback is a function passed as an argument to another function\",\"questiontype\":\"6486c67f44196ce17e2a614d\",\"date\":\"12/06/2023\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/questionBank",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"questionBank"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"StudentName\":\"Anjali Ashok Mali\",\"StudentCollegeName\":\"SITCOE\",\"StudentClass\":\"B.Tech CSE\",\"StudentEmail\":\"anjlaimali@gmail.com\",\"StudentMobileNo\":7558543433,\"Address\":\"Mhaisal\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/student",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/solution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/solution",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"solution"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/student",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/student",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/categories",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/solution",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Qestion\":\"what is html\",\"Answer\":\"hypertext markup language\",\"links\":[\"www.w3school.com\"],\"Group\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/solution",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"solution"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/solution/6486dd8f4fecea525fd0110b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/solution/6486dd8f4fecea525fd0110b",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"solution",
+						"6486dd8f4fecea525fd0110b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/vendor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/vendor",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"vendor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dg-yeklavya-system.onrender.com/api/vendor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Vendorname\":\"Anjali\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dg-yeklavya-system.onrender.com/api/vendor",
+					"protocol": "https",
+					"host": [
+						"dg-yeklavya-system",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"vendor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
